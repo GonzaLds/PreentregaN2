@@ -22,7 +22,9 @@
 <body>
     <!-- Header -->
     <header class="planetas-principales-header">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Menú</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,14 +56,14 @@
             </div>
         </nav>
 
-        <div class="d-flex flex-column justify-content-end h-100 ">
-            <h1 class="text-white text-center">Los 8 planetas del sistema solar</h1>
+        <div class="d-flex flex-column justify-content-end h-100">
+            <h1 class="text-white text-center">Los planetas del sistema solar</h1>
         </div>
     </header>
 
     <!-- Main -->
     <main>
-        <h2 class="text-center p-4">Los planetas del sistema solar se dividen en dos grupos</h2>
+        <h2 class="text-center p-4">Los 8 principales planetas del sistema solar se dividen en dos grupos</h2>
         <section>
             <h4 class="text-center">Planetas interiores</h4>
             <p class="text-center">Son los 4 planetas a partir del sol: Mercurio, Venus, la Tierra y Marte.Estos planetas interiores tambien se conocen como planetas terrestres porque tienen superficie solida</p>
@@ -69,7 +71,7 @@
             <!-- Card Mercurio -->
         <div class="d-flex flex-wrap justify-content-center gap-3">
             <div class="card bg-body-tertiary p-2 rounded" style="width: 30rem;">
-                <img class="w-100" src="../img/cards/imagen-mercurio.webp" alt="Imagen planeta Mercurio">
+                <img class="w-100 planeta" src="../img/cards/imagen-mercurio.webp" alt="Imagen planeta Mercurio">
                 <div class="car-body">
                 <h3 class="text-center my-3">Mercurio</h>
                 <h4 class="text-center">Mercurio es el planeta más cercano al Sol y el planeta más pequeño de nuestro sistema solar</h4>
@@ -78,7 +80,7 @@
 
             <!-- Card Venus -->
             <div class="card bg-body-tertiary p-2 rounded" style="width: 30rem;">
-                <img class="w-100" src="../img/cards/imagen-venus.webp" alt="Imagen planeta Venus">
+                <img class="w-100 planeta" src="../img/cards/imagen-venus.webp" alt="Imagen planeta Venus">
                 <div class="car-body">
                 <h3 class="text-center my-3">Venus</h>
                 <h4 class="text-center">Venus es el segundo planeta desde el Sol y el sexto planeta mas grande</h4>
@@ -87,7 +89,7 @@
 
             <!-- Card Tierra -->
             <div class="card bg-body-tertiary p-2 rounded" style="width: 30rem;">
-                <img class="w-100" src="../img/cards/imagen-tierra.webp" alt="Imagen planeta Tierra">
+                <img class="w-100 planeta" src="../img/cards/imagen-tierra.webp" alt="Imagen planeta Tierra">
                 <div class="car-body">
                 <h3 class="text-center my-3">Tierra</h>
                 <h4 class="text-center">La Tierra, nuestro planeta natal, es el tercer planeta desde el Sol y el quinto más grande</h4>
@@ -96,10 +98,10 @@
 
             <!-- Card Marte -->
             <div class="card bg-body-tertiary p-2 rounded" style="width: 30rem;">
-                <img class="w-100" src="../img/cards/imagen-marte.webp" alt="Imagen planeta Marte">
+                <img class="w-100 planeta" src="../img/cards/imagen-marte.webp" alt="Imagen planeta Marte">
                 <div class="car-body">
                 <h3 class="text-center my-3">Marte</h>
-                <h4 class="text-center">Marte es el cuarto planeta desde el Sol y el séotimo planeta más grande</h4>
+                <h4 class="text-center">Marte es el cuarto planeta desde el Sol y el séptimo planeta más grande</h4>
                 </div>
             </div>
         </div>
@@ -150,6 +152,44 @@
 
 
     </main>
+
+    <!-- Footer -->
+    <footer class="bg-black">
+        <section id="contacto">
+            <div class="d-flex flex-row align-items-center justify-content-center flex-wrap">
+                <div class="text-white p-3">
+                    <h3>Contacto</h3>
+                    <p>Email: gonzarnledesma.20@gmail.com</p>
+                    <p>Tel: +54 9 2944 694XXX</p>
+                </div>
+                <div class="text-white p-3">
+                    <h3>Redes Sociales</h3>
+                    <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.instagram.com/gonza.led3sma/">
+                    <img class="logo" src="../img/logos/instagram-logo.png" alt="Logo Instagram">
+                    </a>
+
+                    <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.facebook.com/">
+                    <img class="logo" src="../img/logos/facebook-logo.png" alt="Logo Facebook">
+                    </a>
+
+                    <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/gonza-ledesma-373054399/?trk=opento_sprofile_topcard">
+                    <img class="logo" src="../img/logos/linkedin-logo.png" alt="Logo Linkedin">
+                    </a>
+            
+                </div>
+            </div>
+        </section>
+    </footer>
+
 
         <!-- Funcionalidad Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

@@ -3,14 +3,6 @@
     background-repeat: no-repeat;
 }
 
-/* Index Header */
-.main-header {
-    background-image: url(../img/index-header/planetas-del-sistema-solar.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-} 
-
 /* Cards */
 .card {
     max-width: 25rem;
@@ -19,6 +11,14 @@
 .planeta {
     height: 14rem;
 }
+
+/* Index Header */
+.main-header {
+    background-image: url(../img/index-header/planetas-del-sistema-solar.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+} 
 
 /* Footer */
 .logo {
@@ -33,9 +33,17 @@
     height: 50vh;
 }
 
-/* Pincipales planetas page Header */
+/* Principales planetas page Header */
 .planetas-principales-header {
     background-image: url(../img/planetas-page/Solar_System.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+/* Planetas enanos page Header */
+.planetas-enanos-header {
+    background-image: url(../img/planetas-e-page/fondo-planetasenanos.jpg);
     background-size: cover;
     background-position: center;
     height: 40vh;
