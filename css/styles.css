@@ -11,21 +11,32 @@
     height: 70vh;
 } 
 
-/* Index Main */
+/* Cards */
 .card {
     max-width: 25rem;
     margin: 1rem;
 }
+.planeta {
+    height: 14rem;
+}
 
-/* Index Footer */
+/* Footer */
 .logo {
     width: 5rem;
 }
 
-/* Sol Header */
+/* Sol page Header */
 .sol-header {
     background-image: url(../img/sol-page/sol.imagen-cerca.jpg);
     background-size: cover;
     background-position: center;
     height: 50vh;
+}
+
+/* Pincipales planetas page Header */
+.planetas-principales-header {
+    background-image: url(../img/planetas-page/Solar_System.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
 }
