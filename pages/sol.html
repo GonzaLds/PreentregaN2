@@ -7,13 +7,108 @@
         <!-- Titulo -->
     <title>Nuestro Sol</title>
 
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+
         <!-- CSS -->
         <link rel="stylesheet" href="../css/styles.css">
 
-</head>
+    </head>
 <body>
-    <header>
-        <h1>El sol es una estrella</h1>
+    <!-- Header -->
+    <header class="sol-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menú</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li><hr class="navbar-divider"></li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./sol.html">El Sol</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Planetas</a>
+                            <ul class="dropdown-menu bg-body-tertiary">
+                            <li><a class="dropdown-item" href="../pages/planetas.html">Principales planetas</a></li>
+                            <li><a class="dropdown-item" href="../pages/planetasenanos.html">Planetas Enanos</a></li>
+                            </ul>
+                            <li><hr class="navbar-divider"></li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#contacto">Contacto</a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="d-flex flex-column justify-content-end align-items-center h-100">
+            <h1 class="text-white text-center bg-dark rounded p-1">NUESTRO SOL</h1>
+        </section>
     </header>
+    
+    <!-- Main -->
+    <main class="bg-body-secondary">
+
+        <H2 class="text-center p-2">Nuestro Sol es una estrella enana amarilla (una esfera resplandeciente de hidrógeno) con 4.500 millones de años de edad que está en el centro de nuestro sistema solar. Se encuentra a unos 150 millones de kilómetros de distancia de la Tierra y es la única estrella de nuestro sistema solar. Sin la energía del sol, la vida tal como la conocemos no podría existir en nuestro planeta.</H2>
+        <hr>
+        <div>
+            <h4 class="text-center">Para más informacion sobre el Sol, podes visitar el siguiente enlace</h4>
+            <div class="d-flex justify-content-center p-2">
+            <a target="_blank" rel="noopener noreferrer" class="btn btn-info d-flex justify-content-center w-25 " href="https://ciencia.nasa.gov/datos-sobre-el-sol/" role="button">Mas información</a>
+        </div>
+        </div>
+    </main>
+
+    <footer class="bg-black">
+        <section id="contacto">
+            <div class="d-flex flex-row align-items-center justify-content-center flex-wrap">
+                <div class="text-white p-3">
+                    <h3>Contacto</h3>
+                    <p>Email: gonzarnledesma.20@gmail.com</p>
+                    <p>Tel: +54 9 2944 694XXX</p>
+                </div>
+                <div class="text-white p-3">
+                    <h3>Redes Sociales</h3>
+                    <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.instagram.com/gonza.led3sma/">
+                    <img class="logo" src="../img/logos/instagram-logo.png" alt="Logo Instagram">
+                    </a>
+
+                    <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.facebook.com/">
+                    <img class="logo" src="../img/logos/facebook-logo.png" alt="Logo Facebook">
+                    </a>
+
+                    <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/gonza-ledesma-373054399/?trk=opento_sprofile_topcard">
+                    <img class="logo" src="../img/logos/linkedin-logo.png" alt="Logo Linkedin">
+                    </a>
+            
+                </div>
+            </div>
+        </section>
+    </footer>
+
+        <!-- Funcionalidad Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
